@@ -11,5 +11,5 @@ def upload_file(file_path, bucket_name, s3_key):
 upload_file(
     "data/raw/SP500_Historical_Data.csv",
     bucket_name,
-    "raw/batch/SP500_Historical_Data"
+    "raw/batch/SP500_Historical_Data.csv"
 )
